@@ -1,0 +1,702 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>DevExpress Icon Resource</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-default_background {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: undefined; }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-transparentGray { background-color: undefined; }
+.select-value-color-translucentGray { background-color: undefined; }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="1a213150-58d4-807c-a89c-de76eb4eb074" class="page sans"><header><h1 class="page-title">DevExpress Icon Resource</h1><p class="page-description"></p></header><div class="page-body"><p id="1a213150-58d4-8072-8be2-c85c010fe265" class="">在 <strong>DevExpress 內建圖庫</strong> (Image Collection) 中，有許多可用的 <strong>內建圖標 (Icons)</strong>，你可以將這些圖標添加到 <strong>Properties.Resources</strong>，然後在 <strong>程式中使用</strong>。</p><hr id="1a213150-58d4-809f-a80b-ccde8cf852a7"/><h2 id="1a213150-58d4-802c-b2ec-d84e594bf7ab" class=""><strong>✅ 方法 1：從 DevExpress 圖庫手動導出並加入 </strong><code><strong>Properties.Resources</strong></code></h2><ol type="1" id="1a213150-58d4-80ee-8859-ca0f9c0a4076" class="numbered-list" start="1"><li><strong>開啟 DevExpress 圖片庫</strong><ul id="1a213150-58d4-80e7-929f-d1179da584f6" class="bulleted-list"><li style="list-style-type:disc">在 Visual Studio 中，開啟 <strong>&quot;DevExpress Image Picker&quot;</strong></li></ul><figure id="1a213150-58d4-80db-8c54-d5149a1b0e84"><a href="https://docs.devexpress.com/WindowsForms/16864/devexpress-icon-library/image-gallery-and-context-dependent-images" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Image Gallery and Context-Dependent Images | WinForms Controls | DevExpress Documentation</div><div class="bookmark-description">Developer documentation for all DevExpress products.</div></div><div class="bookmark-href"><img src="https://docs.devexpress.com/favicon.ico" class="icon bookmark-icon"/>https://docs.devexpress.com/WindowsForms/16864/devexpress-icon-library/image-gallery-and-context-dependent-images</div></div></a></figure><ul id="1a213150-58d4-8058-a9c7-eff9a5c545e6" class="bulleted-list"><li style="list-style-type:disc"><code>Tools</code> &gt; <code>DevExpress</code> &gt; <code>Local Image Picker</code></li></ul><ul id="1a213150-58d4-80a9-ad85-e845612b2200" class="bulleted-list"><li style="list-style-type:disc">或者在 <strong>DevExpress 設計器</strong> (如 <code>RibbonControl</code>) 的 <code><strong>Image</strong></code><strong> 屬性</strong> 選擇 <code>...</code>。</li></ul></li></ol><ol type="1" id="1a213150-58d4-8079-984f-fbdbb1cd4b63" class="numbered-list" start="2"><li><strong>選擇圖片並匯出</strong><ul id="1a213150-58d4-8063-813b-d3fd67153586" class="bulleted-list"><li style="list-style-type:disc">找到你需要的圖標 (如 <code>&quot;Save&quot;</code> 或 <code>&quot;Print&quot;</code>）。</li></ul><ul id="1a213150-58d4-80c2-b42b-ffded4843014" class="bulleted-list"><li style="list-style-type:disc">點擊 <strong>&quot;Save As&quot;</strong>，將圖標匯出為 PNG。</li></ul></li></ol><ol type="1" id="1a213150-58d4-80ec-b0a5-dbad21c06195" class="numbered-list" start="3"><li><strong>將圖標加入 </strong><code><strong>Properties.Resources</strong></code><ul id="1a213150-58d4-8036-93fc-e903abcf4acf" class="bulleted-list"><li style="list-style-type:disc"><strong>開啟 </strong><code><strong>Resources.resx</strong></code>（在 Solution Explorer 裡 <code>Properties</code> &gt; <code>Resources.resx</code>）。</li></ul><ul id="1a213150-58d4-800a-bbf5-d68a9eecddb0" class="bulleted-list"><li style="list-style-type:disc"><strong>拖曳 PNG 圖片</strong> 到 <code>Resources</code> 窗口，或點擊 <code>Add Resource</code> &gt; <code>Add Existing File</code> 選擇圖片。</li></ul></li></ol><ol type="1" id="1a213150-58d4-8028-abc8-e681e2aa19a0" class="numbered-list" start="4"><li><strong>在程式中使用</strong><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="1a213150-58d4-80cb-951c-dda86cffc6a5" class="code"><code class="language-C#" style="white-space:pre-wrap;word-break:break-all">btnSave.Glyph = Properties.Resources.icon_save;</code></pre></li></ol><hr id="1a213150-58d4-8040-ae0e-e6cc9d3dbfed"/><h2 id="1a213150-58d4-80d0-a0cd-ec831db0bb09" class=""><strong>✅ 方法 2：直接使用 DevExpress 內建圖標</strong></h2><p id="1a213150-58d4-805d-8aaf-f62021af7858" class="">如果你不想手動匯出圖標，DevExpress <strong>允許你直接使用內建圖標</strong> 而不需要加入 <code>Properties.Resources</code>。</p><h3 id="1a213150-58d4-80f0-abb1-c38deb1e5405" class=""><strong>📌 在程式中使用內建圖標</strong></h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="1a213150-58d4-80c0-8b09-f0e85c2dc5e1" class="code"><code class="language-C#" style="white-space:pre-wrap;word-break:break-all">using DevExpress.Images;
+using DevExpress.XtraBars;
+
+private void Form1_Load(object sender, EventArgs e)
+{
+    // 建立 BarButtonItem
+    BarButtonItem btnSave = new BarButtonItem();
+    btnSave.Caption = &quot;Save&quot;;
+
+    // 直接使用 DevExpress 內建圖庫
+    btnSave.Glyph = ImageResourceCache.Default.GetImage(&quot;images/save/save_16x16.png&quot;);
+
+    // 加入按鈕到 Ribbon
+    ribbonPageGroup1.ItemLinks.Add(btnSave);
+}
+</code></pre><p id="1a213150-58d4-80df-a518-f397ef7b28ea" class="">🔹 <code><strong>ImageResourceCache.Default.GetImage(&quot;images/save/save_16x16.png&quot;)</strong></code></p><ul id="1a213150-58d4-800a-98c8-da340fec2dfc" class="bulleted-list"><li style="list-style-type:disc"><code>save_16x16.png</code> 是 DevExpress 內建的小圖標。</li></ul><ul id="1a213150-58d4-808f-beef-e8192d36990b" class="bulleted-list"><li style="list-style-type:disc">你可以使用 <code><strong>32x32</strong></code><strong>、</strong><code><strong>48x48</strong></code><strong> 來調整大小</strong>。</li></ul><hr id="1a213150-58d4-809d-b96a-e8a37ad0c844"/><h2 id="1a213150-58d4-8001-abc7-ee36f959c9ff" class=""><strong>✅ 如何找到 DevExpress 內建圖標名稱？</strong></h2><p id="1a213150-58d4-8059-a9b1-d3fb854dfdb2" class="">你可以在 <strong>DevExpress 圖庫瀏覽器</strong> 中找到圖標：</p><ol type="1" id="1a213150-58d4-80d3-ab33-da5993cd6126" class="numbered-list" start="1"><li><strong>打開 DevExpress 圖庫瀏覽器</strong><code>Tools</code> &gt; <code>DevExpress</code> &gt; <code>Image Picker</code></li></ol><ol type="1" id="1a213150-58d4-8084-b623-d386e98576b3" class="numbered-list" start="2"><li><strong>查看圖標的完整名稱</strong><br/>例如：<br/><ul id="1a213150-58d4-803a-8e48-e3776f1b2c87" class="bulleted-list"><li style="list-style-type:disc"><code>images/actions/add_16x16.png</code></li></ul><ul id="1a213150-58d4-80f2-8631-c55c5cb7e1a3" class="bulleted-list"><li style="list-style-type:disc"><code>images/save/save_32x32.png</code></li></ul><ul id="1a213150-58d4-8033-a476-fda5c25d96fa" class="bulleted-list"><li style="list-style-type:disc"><code>images/print/print_32x32.png</code></li></ul></li></ol><ol type="1" id="1a213150-58d4-80c9-97cd-d6af71edafd3" class="numbered-list" start="3"><li><strong>在程式中使用 </strong><code><strong>ImageResourceCache.Default.GetImage()</strong></code><strong> 來載入圖標</strong></li></ol><hr id="1a213150-58d4-80b5-9794-ec9340f25a8a"/><h2 id="1a213150-58d4-809c-a759-e6cc0fd5e2ec" class=""><strong>🚀 結論</strong></h2><p id="1a213150-58d4-80bf-9e04-f801d7cb6f07" class="">✔ <strong>方法 1：手動匯出圖標到 </strong><code><strong>Properties.Resources</strong></code><strong>，然後使用 </strong><code><strong>Properties.Resources.icon_save</strong></code>。</p><p id="1a213150-58d4-80a9-8213-c6dde88e439f" class="">✔ <strong>方法 2：直接使用 </strong><code><strong>ImageResourceCache.Default.GetImage()</strong></code><strong> 動態載入 DevExpress 內建圖標</strong>，更靈活，不需要手動管理資源。</p><p id="1a213150-58d4-805b-82fe-cb1390be65b1" class="">建議 <strong>如果 DevExpress 內建圖標夠用</strong>，直接用 <strong>方法 2</strong> 比較方便！🚀🎨</p><hr id="1a213150-58d4-80ac-b1c3-ed9f4e5cccee"/><p id="1a213150-58d4-80fa-acce-c0ed13833805" class="">如果要使用 <code><strong>Properties.Resources.icon_save</strong></code> 來加載圖片，則 <strong>Build Action 應該設定為 </strong><code><strong>Resource</strong></code>，因為 DevExpress 使用的是 <code>.resx</code> 內的資源管理。</p><hr id="1a213150-58d4-80e1-828c-f74e44a9ec3a"/><h3 id="1a213150-58d4-804e-9d89-e25e01f701c3" class=""><strong>✅ 設定 Build Action</strong></h3><ol type="1" id="1a213150-58d4-8099-9879-da8a071796f6" class="numbered-list" start="1"><li><strong>將圖片 (</strong><code><strong>icon_save.png</strong></code><strong>) 加入專案</strong><ul id="1a213150-58d4-80ed-97a6-eaf976aa1bea" class="bulleted-list"><li style="list-style-type:disc">在 <strong>Solution Explorer</strong> 裡，右鍵點擊專案名稱，選擇 <strong>Add &gt; Existing Item…</strong>。</li></ul><ul id="1a213150-58d4-8037-945c-ed670698f274" class="bulleted-list"><li style="list-style-type:disc">選擇你要的圖片（如 <code>icon_save.png</code>），然後點擊 <strong>Add</strong>。</li></ul></li></ol><ol type="1" id="1a213150-58d4-8021-b90a-e468e73b9c0c" class="numbered-list" start="2"><li><strong>開啟圖片的 Properties</strong><ul id="1a213150-58d4-80a1-8570-cbddaf5316ca" class="bulleted-list"><li style="list-style-type:disc">在 <strong>Solution Explorer</strong> 中，找到 <code>icon_save.png</code>。</li></ul><ul id="1a213150-58d4-8092-b141-d39760294889" class="bulleted-list"><li style="list-style-type:disc">右鍵點擊圖片，選擇 <strong>Properties</strong>。</li></ul></li></ol><ol type="1" id="1a213150-58d4-80dc-957e-fbead2a24a76" class="numbered-list" start="3"><li><strong>設定 </strong><code><strong>Build Action</strong></code><strong> 為 </strong><code><strong>Resource</strong></code><ul id="1a213150-58d4-8008-b414-c1cf42b14645" class="bulleted-list"><li style="list-style-type:disc">在 <strong>Properties</strong> 視窗中，找到 <strong>Build Action</strong>。</li></ul><ul id="1a213150-58d4-8098-8638-f8cdc7e1c583" class="bulleted-list"><li style="list-style-type:disc">設定 <strong>Build Action: </strong><code><strong>Resource</strong></code>。</li></ul></li></ol><hr id="1a213150-58d4-8003-9a4b-ffc7a97bb152"/><h3 id="1a213150-58d4-8012-8635-c57c1f30615e" class=""><strong>✅ 在程式中使用</strong></h3><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="1a213150-58d4-80ba-9cf1-c06665b37e1a" class="code"><code class="language-C#" style="white-space:pre-wrap;word-break:break-all">btnSave.Glyph = Properties.Resources.icon_save;
+</code></pre><p id="1a213150-58d4-8010-ae9f-e83a6f591f41" class="">這樣，圖片將被 <strong>嵌入 (</strong><code><strong>Embedded Resource</strong></code><strong>) 到 </strong><code><strong>Resources.resx</strong></code><strong> 中</strong>，並且可以透過 <code>Properties.Resources.icon_save</code> 直接存取。</p><hr id="1a213150-58d4-80f5-bf65-fe0f7fefaa65"/><h2 id="1a213150-58d4-808a-883b-d6cdfa1dd871" class=""><strong>🚀 其他選項 (Build Action) 的差異</strong></h2><table id="1a213150-58d4-80b7-9a12-c27f6db04106" class="simple-table"><tbody><tr id="1a213150-58d4-805f-8f83-d865dcf578d5"><td id="ZwcB" class="">Build Action</td><td id="`]|O" class="">用途</td></tr><tr id="1a213150-58d4-8057-885b-ebd609d37d3b"><td id="ZwcB" class=""><strong>None</strong></td><td id="`]|O" class="">檔案不會包含在編譯輸出中</td></tr><tr id="1a213150-58d4-8084-94c4-d219dd46c342"><td id="ZwcB" class=""><strong>Content</strong></td><td id="`]|O" class="">檔案會包含在輸出中，但不會嵌入到 DLL</td></tr><tr id="1a213150-58d4-8084-bdc1-f650625dfba9"><td id="ZwcB" class=""><strong>Embedded Resource</strong></td><td id="`]|O" class="">內嵌到 DLL，但無法透過 <code>Properties.Resources</code> 直接存取，需要 <code>Assembly.GetManifestResourceStream()</code></td></tr><tr id="1a213150-58d4-80b5-ad3c-ce1f23f9a4be"><td id="ZwcB" class=""><strong>Resource</strong></td><td id="`]|O" class="">內嵌到 DLL 並且可以透過 <code>Properties.Resources.icon_save</code> 存取（<strong>這是最推薦的設定！</strong>）</td></tr></tbody></table><hr id="1a213150-58d4-80d0-8854-dc6c34ce74cb"/><h2 id="1a213150-58d4-801a-891d-dae4fbe04b13" class=""><strong>✅ 結論</strong></h2><p id="1a213150-58d4-801d-ab7a-fc35c94d8a69" class="">✔ <strong>如果要透過 </strong><code><strong>Properties.Resources.icon_save</strong></code><strong> 存取圖片，請設定 </strong><code><strong>Build Action</strong></code><strong> 為 </strong><code><strong>Resource</strong></code>。</p><p id="1a213150-58d4-8047-84e2-c6d836a9163d" class="">✔ <strong>如果想要手動載入內嵌圖片，可以使用 </strong><code><strong>Embedded Resource</strong></code><strong>，但需要 </strong><code><strong>Assembly.GetManifestResourceStream()</strong></code>。</p><p id="1a213150-58d4-8041-837d-ca5f7a219b16" class="">🚀 <code><strong>Resource</strong></code><strong> 是最方便的選擇！</strong> 🎨</p><p id="1a213150-58d4-80e0-9d8d-c351b24f4a9f" class="">
+</p><p id="1a213150-58d4-801a-917d-e01b9cabeea1" class="">In addition to using resource files, you can <strong>directly embed your icon</strong> as an embedded resource. Here’s how:</p><ol type="1" id="1a213150-58d4-80f3-9f2d-e31e86030f41" class="numbered-list" start="1"><li><strong>Add the Image to Your Project:</strong></li></ol><ul id="1a213150-58d4-8002-9a62-e7956e28d790" class="bulleted-list"><li style="list-style-type:disc">In <strong>Solution Explorer</strong>, right-click on your project, then select <strong>Add &gt; Existing Item…</strong>.<p id="1a213150-58d4-80b4-9e7a-df1c7a0a0a96" class=""><a href="https://global.discourse-cdn.com/mcneel/uploads/default/original/4X/d/9/4/d9421aa27de24ef732d972543342cc3c751dac69.png">1061×1224 64.2 KB</a></p><figure id="1a213150-58d4-8011-91b4-efb9aa41fc33" class="image"><a href="https://global.discourse-cdn.com/mcneel/uploads/default/optimized/4X/d/9/4/d9421aa27de24ef732d972543342cc3c751dac69_2_216x250.png"><img style="width:216px" src="https://global.discourse-cdn.com/mcneel/uploads/default/optimized/4X/d/9/4/d9421aa27de24ef732d972543342cc3c751dac69_2_216x250.png"/></a></figure></li></ul><ul id="1a213150-58d4-8031-8267-f146bdcafec4" class="bulleted-list"><li style="list-style-type:disc">Navigate to the image file (e.g., <code>spiral.png</code>), select it, and click <strong>Add</strong>.</li></ul><ol type="1" id="1a213150-58d4-8097-83e2-d6ab08424069" class="numbered-list" start="1"><li><strong>Set the Build Action:</strong></li></ol><ul id="1a213150-58d4-801f-8988-c3151afe407d" class="bulleted-list"><li style="list-style-type:disc">In <strong>Solution Explorer</strong>, locate the added image file.</li></ul><ul id="1a213150-58d4-806a-8c02-d8ed6b4fd1bc" class="bulleted-list"><li style="list-style-type:disc">Right-click on the file, select <strong>Properties</strong>, and set the <strong>Build Action</strong> property to <code>Resource</code>.<p id="1a213150-58d4-8062-9ade-ed0f26f7244e" class=""><a href="https://global.discourse-cdn.com/mcneel/uploads/default/original/4X/5/3/0/530f8266d18d8b1980c1ff4ccedeceed9276858f.png">534×778 11.8 KB</a></p><figure id="1a213150-58d4-80ad-b95a-c7cf0e7a953e" class="image"><a href="https://global.discourse-cdn.com/mcneel/uploads/default/optimized/4X/5/3/0/530f8266d18d8b1980c1ff4ccedeceed9276858f_2_171x250.png"><img style="width:171px" src="https://global.discourse-cdn.com/mcneel/uploads/default/optimized/4X/5/3/0/530f8266d18d8b1980c1ff4ccedeceed9276858f_2_171x250.png"/></a></figure></li></ul><p id="1a213150-58d4-8054-88d0-db3437a8a01e" class="">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
